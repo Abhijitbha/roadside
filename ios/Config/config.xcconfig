@@ -4,3 +4,5 @@ BUNDLE_DISPLAY_NAME = RoadsideQA
 BUNDLE_IDENTIFIER = com.roadside.mobile
 
 RUNTIME_URL = https:\/\/Roadside-QA.cfapps.us10.hana.ondemand.com
+
+PRODUCT_NAME = nativeTemplate
