@@ -37,8 +37,8 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
-        versionCode 533
-        versionName "1.0.533"
+        versionCode 539
+        versionName "1.0.539"
         testBuildType System.getProperty("testBuildType", "debug")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "boolean", "USE_FIREBASE", "${googleServicesEnabled}"
