@@ -1,7 +1,7 @@
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
 BUNDLE_DISPLAY_NAME = Roadside
-BUNDLE_IDENTIFIER = com.roadside.mobile
+BUNDLE_IDENTIFIER = com.roadsidestg.mobile
 
 RUNTIME_URL = https:\/\/Roadside-QA.cfapps.us10.hana.ondemand.com
 
