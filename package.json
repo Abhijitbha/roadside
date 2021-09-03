@@ -1,9 +1,13 @@
 {
   "name": "native-template",
-  "version": "5.1.8",
+  "version": "5.1.15",
+  "mendix": {
+    "templateVersion": "5.1.15"
+  },
   "private": true,
   "scripts": {
-    "postinstall": "patch-package && jetify"
+    "postinstall": "patch-package && jetify",
+    "configure": "native-mobile-toolkit configure --config-path='./config.json' --verbose"
   },
   "dependencies": {
     "@react-native-community/art": "1.2.0",
@@ -19,7 +23,7 @@
     "react-native-ble-plx": "1.1.1",
     "react-native-calendar-events": "1.7.3",
     "react-native-camera": "3.19.2",
-    "react-native-code-push": "6.1.1",
+    "react-native-code-push": "6.4.1",
     "react-native-dark-mode": "0.2.2",
     "react-native-device-info": "5.5.3",
     "react-native-fast-image": "8.1.5",
@@ -45,6 +49,7 @@
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/runtime": "^7.5.4",
+    "@mendix/native-mobile-toolkit": "latest",
     "babel-jest": "^25.2.6",
     "detox": "17.6.1",
     "jest": "^25.2.7",
