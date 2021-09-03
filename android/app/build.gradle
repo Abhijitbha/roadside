@@ -33,7 +33,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.roadside.mobile"
+        applicationId "com.roadsidestg.mobile"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
