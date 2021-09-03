@@ -7,5 +7,6 @@
     "crashlytics": false,
     "firebaseAndroid": false,
     "firebaseIos": false,
-    "localNotifications": false
+    "localNotifications": false,
+    "appCenterOTA": false
 }
