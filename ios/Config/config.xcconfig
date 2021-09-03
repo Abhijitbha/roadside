@@ -5,4 +5,4 @@ BUNDLE_IDENTIFIER = com.roadsidestg.mobile
 
 RUNTIME_URL = https:\/\/Roadside-QA.cfapps.us10.hana.ondemand.com
 
-PRODUCT_NAME = RoadsideQA
+PRODUCT_NAME = Roadside
