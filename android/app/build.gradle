@@ -33,12 +33,12 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.roadsidestg.mobile"
+        applicationId "com.mendix.nativetemplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
-        versionCode 666
-        versionName "0.0.0"
+        versionCode 1
+        versionName "1.0"
         testBuildType System.getProperty("testBuildType", "debug")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "boolean", "USE_FIREBASE", "${googleServicesEnabled}"

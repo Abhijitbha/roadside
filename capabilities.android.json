@@ -6,7 +6,6 @@
     "firebaseIos": false,
     "bluetooth": true,
     "appCenterOTA": false,
-    "maps": false,
-    "mapsIos": false,
-    "localNotifications": false
+    "maps": true,
+    "mapsIos": true
 }
