@@ -127,8 +127,5 @@
         "appCenterOTA": {
             "enabled": false
         }
-    },
-    "appVersion": "1.0.675",
-    "buildNumber": 680,
-    "runtimeUrl": "https://Roadside-qa.cfapps.us10.hana.ondemand.com"
+    }
 }
