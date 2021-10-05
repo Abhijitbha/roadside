@@ -1,10 +1,10 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.roadsidestg.mobile",
-    "appName": "RoadsideStg",
+    "appIdentifier": "com.loves.core.roadside",
+    "appName": "Roadside",
     "bundleName": {
-        "main": "RoadsideStg",
-        "dev": "RoadsideStgDev"
+        "main": "Roadside",
+        "dev": "RoadsideDev"
     },
     "deviceTarget": {
         "phone": true,
@@ -128,7 +128,7 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.677",
-    "buildNumber": 677,
-    "runtimeUrl": "https://Roadside-Stage.cfapps.us10.hana.ondemand.com"
+    "appVersion": "1.0.0",
+    "buildNumber": 682,
+    "runtimeUrl": "https://Roadside-PRD.cfapps.us10.hana.ondemand.com"
 }
