@@ -131,7 +131,7 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.717",
-    "buildNumber": 717,
-    "runtimeUrl": "https://Roadside-Stage.cfapps.us10.hana.ondemand.com"
+    "appVersion": "1.0.718",
+    "buildNumber": 718,
+    "runtimeUrl": "https://Roadside-qa.cfapps.us10.hana.ondemand.com"
 }
