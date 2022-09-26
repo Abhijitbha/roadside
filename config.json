@@ -1,10 +1,10 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.roadsidestg.mobile",
-    "appName": "RoadsideStg",
+    "appIdentifier": "com.roadside.mobile",
+    "appName": "RoadsideQA",
     "bundleName": {
-        "main": "RoadsideStg",
-        "dev": "RoadsideStgDev"
+        "main": "RoadsideQA",
+        "dev": "RoadsideQADev"
     },
     "deviceTarget": {
         "phone": true,
@@ -15,6 +15,51 @@
         "landscape": true
     },
     "permissions": [
+        {
+            "title": "Camera",
+            "name": "android.permission.CAMERA",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Camera Usage",
+            "name": "NSCameraUsageDescription",
+            "purpose": "The camera can be used to open apps by scanning a QR code.",
+            "platform": "ios",
+            "required": false
+        },
         {
             "title": "Internet",
             "name": "android.permission.INTERNET",
@@ -45,56 +90,6 @@
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
             "required": true
-        },
-        {
-            "title": "Location - When In Use Usage",
-            "name": "NSLocationWhenInUseUsageDescription",
-            "purpose": "To use that feature, the app needs access to your location.",
-            "platform": "ios",
-            "required": true
-        },
-        {
-            "title": "Location - Always And When in Use Usage",
-            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
-            "purpose": "To use that feature, the app needs access to your location.",
-            "platform": "ios",
-            "required": true
-        },
-        {
-            "title": "Coarse Location",
-            "name": "android.permission.ACCESS_COARSE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Network State",
-            "name": "android.permission.ACCESS_NETWORK_STATE",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Wifi State",
-            "name": "android.permission.ACCESS_WIFI_STATE",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Camera",
-            "name": "android.permission.CAMERA",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Vibrate",
-            "name": "android.permission.VIBRATE",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Fine Location",
-            "name": "android.permission.ACCESS_FINE_LOCATION",
-            "platform": "android",
-            "required": false
         }
     ],
     "capabilities": {
@@ -139,7 +134,7 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.735",
-    "buildNumber": 735,
-    "runtimeUrl": "https://Roadside-Stage.cfapps.us10.hana.ondemand.com"
+    "appVersion": "1.0.801",
+    "buildNumber": 801,
+    "runtimeUrl": "https://Roadside-qa.cfapps.us10.hana.ondemand.com"
 }
