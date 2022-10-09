@@ -90,6 +90,24 @@
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
             "required": true
+        },
+        {
+            "title": "Network State",
+            "name": "android.permission.ACCESS_NETWORK_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Wifi State",
+            "name": "android.permission.ACCESS_WIFI_STATE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Vibrate",
+            "name": "android.permission.VIBRATE",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -134,7 +152,7 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.802",
-    "buildNumber": 802,
+    "appVersion": "1.0.803",
+    "buildNumber": 803,
     "runtimeUrl": "https://Roadside-qa.cfapps.us10.hana.ondemand.com"
 }
