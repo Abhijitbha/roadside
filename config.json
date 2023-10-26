@@ -1,10 +1,10 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.roadsideloc.mobile",
-    "appName": "RoadsideLoc",
+    "appIdentifier": "com.loves.core.dev.roadside",
+    "appName": "Roadside Dev",
     "bundleName": {
-        "main": "RoadsideLoc",
-        "dev": "RoadsideLocDev"
+        "main": "Roadside",
+        "dev": "RoadsideDev"
     },
     "deviceTarget": {
         "phone": true,
@@ -151,5 +151,8 @@
         "nativeOTA": {
             "enabled": false
         }
-    }
+    },
+    "appVersion": "1.0.848",
+    "buildNumber": 848,
+    "runtimeUrl": "https://Roadside-Dev.cfapps.us10.hana.ondemand.com"
 }
