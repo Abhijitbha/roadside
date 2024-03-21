@@ -11,7 +11,6 @@ buildscript {
         playServicesVersion = "17+"
         firebaseMessagingVersion = "21.0.0"
         androidXCore = "1.6.0"
-        ndkVersion = "24.0.8215888"
     }
     repositories {
         google()
